@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 class Battle < Sinatra::Base
-  get '/hello_battle' do
-    "Hello Battle!"
+  get '/' do
+    'Testing infrastructure working!'
   end
 end
