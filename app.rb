@@ -19,8 +19,4 @@ class Battle < Sinatra::Base
     erb :play
   end
 
-  get '/hit_points' do
-    erb :hit_points
-  end
-
 end
